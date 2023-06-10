@@ -35,7 +35,7 @@ struct ContentView: View {
       
       VStack {
         
-        Text("You’re logged in!")
+        Text("You’re logged in.")
           .modifier(TitleStyle())
   
         UserImage(urlString: userProfile.picture)
